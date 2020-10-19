@@ -1,0 +1,56 @@
+body{
+    background-image: url("background-image.jpg");
+
+
+}
+h6{
+    position: absolute;
+    margin: 0;
+    margin-left: 39.5%;
+    padding-top: 50px;
+    padding-bottom: 0;
+    font-size: 60px;
+    font-family: 'Caveat', cursive;
+
+
+}
+.container{
+    text-align: center;
+    position: relative;
+    top: 230px;
+
+
+}
+.white-keys kbd{
+    background-color: white;
+    border: solid 2px slategrey;
+    position: relative;
+    display:inline-block;
+    width: 75px;
+    height: 200px;
+    margin-left: -5px;
+    z-index: 0;
+    line-height: 300px;
+    font-family: 'Caveat', cursive;
+
+
+}
+.black-keys kbd {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    height: 100px;
+    width: 36px;
+    border: 2px grey solid;
+    top: -204px;
+    right: 20px;
+    z-index: 1;
+    line-height: 150px;
+    color: white;
+    margin-left: 34px;
+    font-family: 'Caveat', cursive;
+
+}
+#tkey{
+    margin-left: 112px;
+}
